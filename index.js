@@ -1,3 +1,14 @@
+/**
+ * @author Alberto Cruz Luis
+ * @email: alu0101217734@ull.edu.es
+ * @Github: https://github.com/AlbertoCruzLuis
+ * @since March 2021
+ * @Course: PL
+ * @University: ULL in Tenerife
+ * 
+ * @description Github Action Hello World
+ */
+
 const core = require('@actions/core');
 const github = require('@actions/github');
 

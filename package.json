@@ -2,8 +2,9 @@
   "name": "hello-js-action-AlbertoCruzLuis",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "clean": "rm -rf node_modules/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/ULL-ESIT-PL-2021/hello-js-action-AlbertoCruzLuis.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alberto Cruz Luis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ULL-ESIT-PL-2021/hello-js-action-AlbertoCruzLuis/issues"
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/ULL-ESIT-PL-2021/hello-js-action-AlbertoCruzLuis#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0"
+    "@actions/github": "^4.0.0",
+    "@vercel/ncc": "^0.27.0"
   }
 }
