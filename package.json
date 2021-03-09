@@ -1,7 +1,7 @@
 {
   "name": "hello-js-action-AlbertoCruzLuis",
   "version": "1.0.0",
-  "description": "",
+  "description": "Github Action Hello World",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rm -rf node_modules/*",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ULL-ESIT-PL-2021/hello-js-action-AlbertoCruzLuis.git"
   },
-  "keywords": [],
+  "keywords": ["ULL PL","Github Action"],
   "author": "Alberto Cruz Luis",
   "license": "ISC",
   "bugs": {
@@ -20,7 +20,6 @@
   "homepage": "https://github.com/ULL-ESIT-PL-2021/hello-js-action-AlbertoCruzLuis#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0",
-    "@vercel/ncc": "^0.27.0"
+    "@actions/github": "^4.0.0"
   }
 }
